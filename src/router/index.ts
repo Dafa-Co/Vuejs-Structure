@@ -4,9 +4,9 @@ import ProtectedRouter from "@/router/ProtectedRouter";
 
 import { AuthLayout, RootLayout, NotFountLayout } from "@/layouts";
 
-import authRoutes from "@/modules/auth/index.routes";
+import authRoutes from "@/modules/auth/router/index.routes";
 
-import homeRoutes from "@/modules/home/index.routes";
+import homeRoutes from "@/modules/home/router/index.routes";
 
 const router = VueRouter.createRouter({
   history: VueRouter.createWebHistory(import.meta.env.BASE_URL),
